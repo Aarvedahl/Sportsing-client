@@ -39,8 +39,10 @@ public class SportsBean implements Serializable {
     public List<ContenderResult> getContenders() {
         contenders = new ArrayList<ContenderResult>();
         for(Match match : getMatches()) {
-            while(match.getContenderIterator().hasNext()) {
-                contenders.add(match.getContenderIterator().next());
+            for (Iterator<ContenderResult> iter = match.getContenderIterator(); iter.hasNext(); ) {
+                ContenderResult contenderResult = iter.next();
+                contenders.add(contenderResult);
+                //iter.remove();
             }
         }
         return contenders;
