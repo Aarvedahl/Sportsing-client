@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sportsing-client:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="sportsing-client.war">
+      <element id="artifact" artifact-name="sportsing-client:war exploded" />
+    </root>
+  </artifact>
+</component>
