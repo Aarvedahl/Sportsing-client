@@ -7,6 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c680fdb-b9cc-415f-aeb3-4ba944457426" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/github/aarvedahl/SportsBean.class" afterPath="$PROJECT_DIR$/target/classes/io/github/aarvedahl/SportsBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sportsing-client.war" afterPath="$PROJECT_DIR$/target/sportsing-client.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sportsing-client/WEB-INF/classes/io/github/aarvedahl/SportsBean.class" afterPath="$PROJECT_DIR$/target/sportsing-client/WEB-INF/classes/io/github/aarvedahl/SportsBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/SportsBean.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/SportsBean.java" />
     </list>
@@ -403,12 +407,12 @@
       <workItem from="1510262224116" duration="464000" />
       <workItem from="1510262900830" duration="2917000" />
       <workItem from="1510415993540" duration="3088000" />
-      <workItem from="1510421001575" duration="1911000" />
+      <workItem from="1510421001575" duration="1966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10928000" />
+    <option name="totallyTimeSpent" value="10983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
