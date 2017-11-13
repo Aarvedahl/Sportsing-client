@@ -11,13 +11,22 @@
 	<h:head></h:head>
 	<!-- För att AJAX ska funka måste JSF-prylar ligga i en <form>. -->
 	<h:body><h:form>
+		<p:dataTable var="match" value="#{sportsBean.matches}">
+			<p:column headerText="Sport">
+				<h:outputText value="#{match.sport}" />
+			</p:column>
 
-		<p:dataList value="#{sportsBean.contenders}" var="contender" type="ordered">
-			<f:facet name="header">
-				Matches
-			</f:facet>
-			#{contender.name}, #{contender.score},
-		</p:dataList>
+			<p:column headerText="Contenders">
+				<p:dataList value="#{match.contenders}" var="contender" type="ordered">
+					<f:facet name="header">
+						Matches
+					</f:facet>
+					#{contender.name}, #{contender.score},
+				</p:dataList>
+			</p:column>
+
+		</p:dataTable>
+
 
 
 	</h:form></h:body>
