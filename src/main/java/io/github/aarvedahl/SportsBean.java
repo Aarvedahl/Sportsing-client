@@ -24,7 +24,6 @@ public class SportsBean implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private List<Match> matches;
-    private List<ContenderResult> contenders;
     private static Client client = ClientBuilder.newClient();
     private static WebTarget baseTarget = client.target("http://localhost:8080/jaxrs-webservice/sportservice/list");
 
@@ -36,8 +35,8 @@ public class SportsBean implements Serializable {
         return matches;
     }
 
-    public List<ContenderResult> getContenders() {
-        contenders = new ArrayList<ContenderResult>();
+    public void getContenders() {
+       // contenders = new ArrayList<ContenderResult>();
         // Needed since getters has not been added to Match
         /*for(Match match : getMatches()) {
             for (Iterator<ContenderResult> iter = match.getContenderIterator(); iter.hasNext(); ) {
@@ -46,6 +45,5 @@ public class SportsBean implements Serializable {
                 //iter.remove();
             }
         } */
-        return contenders;
     }
 }
